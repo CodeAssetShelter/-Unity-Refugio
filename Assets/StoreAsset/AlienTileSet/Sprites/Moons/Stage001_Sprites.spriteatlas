@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Stage001_Sprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 606e4715cf4a70748be0599cc1c7e6fa, type: 3}
+    - {fileID: 21300000, guid: 6aebec72a160b4047bb56b63e356d8b6, type: 3}
+    - {fileID: 21300000, guid: 6e6b66077f08c9b4385559218cff06cf, type: 3}
+    - {fileID: 2800000, guid: 4266f50b87fee714498b084b3e5f7ec0, type: 3}
+    totalSpriteSurfaceArea: 786432
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 6aebec72a160b4047bb56b63e356d8b6, type: 3}
+  - {fileID: 21300000, guid: 606e4715cf4a70748be0599cc1c7e6fa, type: 3}
+  - {fileID: 21300000, guid: 6e6b66077f08c9b4385559218cff06cf, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Planet_small_blue_512x512
+  - Planet_big_purple_512x512
+  - Planet_small_red_512x512
+  m_Tag: Stage001_Sprites
+  m_IsVariant: 0

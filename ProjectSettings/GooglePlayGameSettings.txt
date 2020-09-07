@@ -1,0 +1,9 @@
+lastUpgrade=01009
+proj.pluginVersion=0.10.09
+proj.AppId=962453363789
+and.BundleId=com.LifeBalance.Refugio
+proj.classDir=Assets
+proj.ConstantsClassName=GPGSIds
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3c%21--%0d%0aGoogle+Play+game+services+IDs.%0d%0aSave+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.%0d%0a--%3e%0d%0a%3cresources%3e%0d%0a++%3c%21--+app_id+--%3e%0d%0a++%3cstring+name%3d%22app_id%22+translatable%3d%22false%22%3e962453363789%3c%2fstring%3e%0d%0a++%3c%21--+package_name+--%3e%0d%0a++%3cstring+name%3d%22package_name%22+translatable%3d%22false%22%3ecom.LifeBalance.Refugio%3c%2fstring%3e%0d%0a++%3c%21--+achievement+Welcome+--%3e%0d%0a++%3cstring+name%3d%22achievement_welcome%22+translatable%3d%22false%22%3eCgkIzbjDtYEcEAIQAQ%3c%2fstring%3e%0d%0a%3c%2fresources%3e%0d%0a
+and.ClientId=962453363789-mgmcdb01gflmf3f7d2sa2ha3q4h3qlm3.apps.googleusercontent.com
+android.SetupDone=true
