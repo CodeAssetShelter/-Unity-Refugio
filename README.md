@@ -8,7 +8,7 @@ AI 의 발전으로 이 수준의 게임은 누구나 쉽게 만들 수 있으�
 - Tile 기반의 여러 맵을 전환하며 유저를 방해하는 다양한 기믹이 있습니다
 
 # 사용 기술스택
-- Unity 2109.4.0f1
+- Unity 2019.4.0f1
 - Unity TileMap
 - Google Play Game Services
 - Google Mobile Ads
