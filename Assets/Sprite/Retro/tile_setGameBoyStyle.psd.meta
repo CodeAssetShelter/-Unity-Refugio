@@ -333,7 +333,7 @@ TextureImporter:
       213: -2004362278874493208
     second: tile_setGameBoyStyle_109
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -350,9 +350,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -361,9 +364,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -384,9 +387,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -398,6 +407,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -410,6 +420,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -422,6 +433,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -434,6 +446,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -446,6 +459,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -458,6 +472,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2832,9 +2847,119 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      tile_setGameBoyStyle_0: 4421118111704022652
+      tile_setGameBoyStyle_1: 8242547689253995935
+      tile_setGameBoyStyle_10: -715440230733040050
+      tile_setGameBoyStyle_100: 5834670574456099943
+      tile_setGameBoyStyle_101: -644926474551873526
+      tile_setGameBoyStyle_102: -1635334461645239762
+      tile_setGameBoyStyle_103: 6602157520013360674
+      tile_setGameBoyStyle_104: -1437266663181239703
+      tile_setGameBoyStyle_105: 3441439972088170212
+      tile_setGameBoyStyle_106: -112351088104575074
+      tile_setGameBoyStyle_107: -3144101411337220084
+      tile_setGameBoyStyle_108: -6306953222303317487
+      tile_setGameBoyStyle_109: -2004362278874493208
+      tile_setGameBoyStyle_11: -6441598245669983947
+      tile_setGameBoyStyle_12: -7421917447366147687
+      tile_setGameBoyStyle_13: 8561278532496984857
+      tile_setGameBoyStyle_14: -7176436390691839068
+      tile_setGameBoyStyle_15: 775726137156415674
+      tile_setGameBoyStyle_16: -7196923719803045884
+      tile_setGameBoyStyle_17: 9037349269405605141
+      tile_setGameBoyStyle_18: -2770745367353324975
+      tile_setGameBoyStyle_19: -3842485516447316573
+      tile_setGameBoyStyle_2: 4709668212879332516
+      tile_setGameBoyStyle_20: -4771940920800872221
+      tile_setGameBoyStyle_21: 4319796140300467765
+      tile_setGameBoyStyle_22: 2782965280272648177
+      tile_setGameBoyStyle_23: -349004194839549207
+      tile_setGameBoyStyle_24: -7633867495858740282
+      tile_setGameBoyStyle_25: 6079505771680513748
+      tile_setGameBoyStyle_26: 5363970692494082613
+      tile_setGameBoyStyle_27: -8286358503297355035
+      tile_setGameBoyStyle_28: 4221885703061947332
+      tile_setGameBoyStyle_29: 3019175404672691228
+      tile_setGameBoyStyle_3: -6597283320742297213
+      tile_setGameBoyStyle_30: -1520119209101051939
+      tile_setGameBoyStyle_31: 6106796032899110364
+      tile_setGameBoyStyle_32: 3472507163772342634
+      tile_setGameBoyStyle_33: 1766298102559153143
+      tile_setGameBoyStyle_34: -5647828285747609531
+      tile_setGameBoyStyle_35: 5043728891790703263
+      tile_setGameBoyStyle_36: -3691851121103194197
+      tile_setGameBoyStyle_37: -395368015540822018
+      tile_setGameBoyStyle_38: -8168176200801362751
+      tile_setGameBoyStyle_39: -5445546946586390972
+      tile_setGameBoyStyle_4: 4362272331507637537
+      tile_setGameBoyStyle_40: 1881056547464246693
+      tile_setGameBoyStyle_41: -6121452722243945505
+      tile_setGameBoyStyle_42: 7318229169229043909
+      tile_setGameBoyStyle_43: 8224923973384139179
+      tile_setGameBoyStyle_44: -8244788494618280646
+      tile_setGameBoyStyle_45: 6444144487208001275
+      tile_setGameBoyStyle_46: -3556023557664556668
+      tile_setGameBoyStyle_47: 1415435267001891229
+      tile_setGameBoyStyle_48: -3068155050480365288
+      tile_setGameBoyStyle_49: -1876383018629847507
+      tile_setGameBoyStyle_5: 7084185883757145276
+      tile_setGameBoyStyle_50: 4001146523522248171
+      tile_setGameBoyStyle_51: -5491268500294306314
+      tile_setGameBoyStyle_52: 8148172364512444509
+      tile_setGameBoyStyle_53: 3948382177615063370
+      tile_setGameBoyStyle_54: 2366075489382227772
+      tile_setGameBoyStyle_55: 3067190445502568457
+      tile_setGameBoyStyle_56: 4768121090059322721
+      tile_setGameBoyStyle_57: 6465268922978148132
+      tile_setGameBoyStyle_58: -8461089529938196216
+      tile_setGameBoyStyle_59: -2788454708458229576
+      tile_setGameBoyStyle_6: -6757691739044101898
+      tile_setGameBoyStyle_60: -6269749455537595648
+      tile_setGameBoyStyle_61: 7450753567660421372
+      tile_setGameBoyStyle_62: 1253734820644281992
+      tile_setGameBoyStyle_63: -2680261550835084971
+      tile_setGameBoyStyle_64: 6079220839571952462
+      tile_setGameBoyStyle_65: -1434119097473062231
+      tile_setGameBoyStyle_66: 4671508480653920433
+      tile_setGameBoyStyle_67: -9139242856992457695
+      tile_setGameBoyStyle_68: 3170714106409022735
+      tile_setGameBoyStyle_69: -7061666637977093277
+      tile_setGameBoyStyle_7: -7414484161170054731
+      tile_setGameBoyStyle_70: 5237821611354477616
+      tile_setGameBoyStyle_71: 4746036607014292304
+      tile_setGameBoyStyle_72: -7370864850975005377
+      tile_setGameBoyStyle_73: 2737290622744775876
+      tile_setGameBoyStyle_74: 8166133196046268016
+      tile_setGameBoyStyle_75: 3484387570926574291
+      tile_setGameBoyStyle_76: -8815517771220565585
+      tile_setGameBoyStyle_77: -5355288767676311570
+      tile_setGameBoyStyle_78: -3157352334085730531
+      tile_setGameBoyStyle_79: -7370911023714590372
+      tile_setGameBoyStyle_8: 6680495047918879152
+      tile_setGameBoyStyle_80: 5928121483753898603
+      tile_setGameBoyStyle_81: -5491984651164878026
+      tile_setGameBoyStyle_82: -6386842335374916608
+      tile_setGameBoyStyle_83: 2132540598158926228
+      tile_setGameBoyStyle_84: -2450824373136417613
+      tile_setGameBoyStyle_85: -6104402732635525177
+      tile_setGameBoyStyle_86: -5352837701750013107
+      tile_setGameBoyStyle_87: 7634246754730994787
+      tile_setGameBoyStyle_88: -5565855634933908344
+      tile_setGameBoyStyle_89: -1605039409719690041
+      tile_setGameBoyStyle_9: 3437955204879225507
+      tile_setGameBoyStyle_90: 830341416433933420
+      tile_setGameBoyStyle_91: -7847290458194599358
+      tile_setGameBoyStyle_92: 4711704096247311286
+      tile_setGameBoyStyle_93: -5724320664507679292
+      tile_setGameBoyStyle_94: 2076618836356942215
+      tile_setGameBoyStyle_95: 8714571466392620518
+      tile_setGameBoyStyle_96: -1132986926765560202
+      tile_setGameBoyStyle_97: 6672674050788264173
+      tile_setGameBoyStyle_98: -2663250956938158198
+      tile_setGameBoyStyle_99: -6446876042462020457
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 

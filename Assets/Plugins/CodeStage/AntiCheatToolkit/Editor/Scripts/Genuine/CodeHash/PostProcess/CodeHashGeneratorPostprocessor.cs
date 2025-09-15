@@ -205,7 +205,7 @@ namespace CodeStage.AntiCheat.EditorCode.PostProcessors
 		{
 			var result = new Dictionary<string, string>();
 
-			foreach (var reportFile in report.files)
+			foreach (var reportFile in report.GetFiles())
 			{
 				var path = reportFile.path;
 				if (path.EndsWith(".apk") || path.EndsWith(".aab"))
@@ -313,7 +313,7 @@ namespace CodeStage.AntiCheat.EditorCode.PostProcessors
 				return result;
 			}
 
-			var buildPath = report.files[0].path;
+			var buildPath = report.GetFiles()[0].path;
 
 			result.Add(buildPath, codeHash);
 

@@ -66,6 +66,9 @@ public class GameManager : MonoBehaviour
     private float ppVignetteActiveValue = 0.2f;
     */
 
+    // 씬 내에 존재하는 player 를 찾는 것이므로 직접 할당해도 문제 X
+    [SerializeField] private ControllerPlayer player;
+
     [Header("- Item Effects & UI")]
     public CoinBox coinBoxPrefab;
     public Transform coinPacker;
@@ -99,7 +102,7 @@ public class GameManager : MonoBehaviour
     ShopManager.ItemInfo playerInfo;
 
     // Start is called before the first frame update
-    void OnEnable()
+    void Start()
     {
         if (MainManager.Instance != null)
             MainManager.Instance.ActivePauseButton();
@@ -116,7 +119,8 @@ public class GameManager : MonoBehaviour
         //SetPlaySettings();
 
         // 임시
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<ControllerPlayer>();
+        if (player == null)
+            player = FindObjectOfType<ControllerPlayer>();
 
         InvokeRepeating("RandomizeKeys", 1, 1);
 
@@ -203,10 +207,11 @@ public class GameManager : MonoBehaviour
     //    itemSlotManager.SetItemSlots(itemSprite[itemType], ref itemType);
     //}
     //public ItemSlotManager itemSlotManager;
-    ControllerPlayer player;
     public void SetPlaySettings()
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<ControllerPlayer>();
+        if (player == null)
+            player = GameObject.FindGameObjectWithTag("Player").GetComponent<ControllerPlayer>();
+        
         if (MainManager.Instance != null)
         {
             playerInfo = MainManager.Instance.GetPlayerInfo();

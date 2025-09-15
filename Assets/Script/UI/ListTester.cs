@@ -30,7 +30,7 @@ public class ListTester : MonoBehaviour
     public void PrintList()
     {
         //Debug.LogError("ONE : " + infoOne.Count);
-        GoogleCloudManager.Instance.PrintData(infoOne);
+        //GoogleCloudManager.Instance.PrintData(infoOne);
         //Debug.LogError("TWO");
         //GoogleCloudManager.Instance.PrintData(infoTwo);
     }

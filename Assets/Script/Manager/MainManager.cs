@@ -38,7 +38,7 @@ public class MainManager : MonoBehaviour
 
     private DisplayPlayer player;
     private ShopManager.ItemInfo gamePlayerGoodsInfo;
-    private Sprite[] playerSprites;
+    [SerializeField] private Sprite[] playerSprites;
 
 
     private Text textMyCoin;
@@ -98,7 +98,7 @@ public class MainManager : MonoBehaviour
 
         SaveData.Instance.SaveUserData(myCoins, myBestScore);
         SoundManager.Instance.ActiveBGM(SoundManager.Instance.bgm);
-        AdManager.Instance.NewAwake();
+        //AdManager.Instance.NewAwake();
         options.SetOptionMode(false);
     }
 
@@ -187,7 +187,7 @@ public class MainManager : MonoBehaviour
     {
         gamePlayerGoodsInfo = ShopManager.Instance.GetSelectedPlayerInfo();
         LoadSceneManager.LoadScene(LoadSceneManager.sceneNames.gamePlay, playerSprites);
-        AdManager.Instance.GameStartAndStopCoroutine();
+        //AdManager.Instance.GameStartAndStopCoroutine();
         //SceneManager.LoadScene("GamePlay", LoadSceneMode.Single);
     }
 
@@ -251,7 +251,7 @@ public class MainManager : MonoBehaviour
 
         textMyScore.text = "" + myBestScore;
 
-        AdManager.Instance.NewAwake();
+        //AdManager.Instance.NewAwake();
         options.SetOptionMode(false);
     }
     public void LoadSceneMainMenu()

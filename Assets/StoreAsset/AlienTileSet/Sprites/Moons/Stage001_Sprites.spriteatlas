@@ -28,14 +28,21 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 21300000, guid: 606e4715cf4a70748be0599cc1c7e6fa, type: 3}
     - {fileID: 21300000, guid: 6aebec72a160b4047bb56b63e356d8b6, type: 3}
     - {fileID: 21300000, guid: 6e6b66077f08c9b4385559218cff06cf, type: 3}
     - {fileID: 2800000, guid: 4266f50b87fee714498b084b3e5f7ec0, type: 3}
-    totalSpriteSurfaceArea: 786432
     bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 6aebec72a160b4047bb56b63e356d8b6: 21300000
+    - 606e4715cf4a70748be0599cc1c7e6fa: 21300000
+    - 6e6b66077f08c9b4385559218cff06cf: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 6aebec72a160b4047bb56b63e356d8b6, type: 3}
@@ -45,5 +52,6 @@ SpriteAtlas:
   - Planet_small_blue_512x512
   - Planet_big_purple_512x512
   - Planet_small_red_512x512
+  m_RenderDataMap: {}
   m_Tag: Stage001_Sprites
   m_IsVariant: 0

@@ -258,7 +258,7 @@ public class SaveData : MonoBehaviour
     public CloudGameData GetCloudData()
     {
         //Debug.Log("GetCloudData()GetCloudData()GetCloudData()GetCloudData()GetCloudData()GetCloudData()");
-        GoogleCloudManager.Instance.PrintData(cloudGameData);
+        //GoogleCloudManager.Instance.PrintData(cloudGameData);
         return cloudGameData;
     }
 

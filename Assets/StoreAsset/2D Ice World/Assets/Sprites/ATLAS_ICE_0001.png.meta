@@ -174,7 +174,7 @@ TextureImporter:
       213: 21300112
     second: Ice_cube_big
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -191,9 +191,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -202,9 +205,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -225,9 +228,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -239,6 +248,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -251,6 +261,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -263,6 +274,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
@@ -1475,9 +1513,66 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Ice_Bot_26_big_L: 21300002
+      Ice_Bot_26_big_R: 21300010
+      Ice_Bot_L: 21300020
+      Ice_Bot_M: 21300022
+      Ice_Bot_R: 21300024
+      Ice_Bot_S_L: 21300000
+      Ice_Bot_S_R: 21300012
+      Ice_Bot_Spikes_L: 21300088
+      Ice_Bot_Spikes_R: 21300092
+      Ice_Bot_spikes: 21300090
+      Ice_G_26_big_L: 21300100
+      Ice_G_26_big_R: 21300108
+      Ice_G_26_small_L: 21300102
+      Ice_G_26_small_R: 21300106
+      Ice_G_M: 21300006
+      Ice_G_S_L: 21300098
+      Ice_G_S_R: 21300110
+      Ice_Top_1: 21300104
+      Ice_Top_2: 21300086
+      Ice_Top_26_big_L: 21300008
+      Ice_Top_26_big_R: 21300004
+      Ice_Top_26_small_L: 21300078
+      Ice_Top_26_small_R: 21300082
+      Ice_Top_3: 21300094
+      Ice_Top_spikes: 21300080
+      Ice_cube_big: 21300112
+      Ice_cube_small: 21300096
+      Ice_platform: 21300056
+      Igloo_Door_L: 21300084
+      Igloo_Door_R: 21300076
+      Igloo_M_Door_L: 21300066
+      Igloo_M_Dorr_R: 21300068
+      Igloo_M_L: 21300074
+      Igloo_M_R: 21300060
+      Igloo_S_L: 21300072
+      Igloo_S_R: 21300062
+      Igloo_Top_L: 21300058
+      Igloo_Top_R: 21300048
+      Snow_E_L: 21300050
+      Snow_E_R: 21300054
+      Snow_G_26_big_L: 21300034
+      Snow_G_26_big_R: 21300042
+      Snow_G_26_small_L: 21300036
+      Snow_G_26_small_R: 21300040
+      Snow_G_M: 21300052
+      Snow_G_S_L: 21300032
+      Snow_G_S_R: 21300044
+      Snow_decoration_1: 21300018
+      Snow_decoration_2: 21300026
+      Snow_platform: 21300046
+      Snowball_big: 21300070
+      Snowball_small: 21300064
+      Snowhill_1: 21300016
+      Snowhill_2: 21300038
+      Snowhill_3: 21300028
+      Snowtree_Top: 21300014
+      Snowtree_ground: 21300030
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

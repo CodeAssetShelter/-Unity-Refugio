@@ -162,7 +162,7 @@ TextureImporter:
       213: 21300104
     second: bretzel nb
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -179,9 +179,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -192,7 +195,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 16
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -213,9 +216,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -227,6 +236,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -239,6 +249,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -251,6 +262,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -263,6 +275,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -275,6 +288,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -287,6 +301,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1415,9 +1430,62 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      apple nb: 21300058
+      apricot nb: 21300080
+      asparagus nb: 21300030
+      banana nb: 21300066
+      beer nb: 21300040
+      blueberries nb: 21300094
+      bread nb: 21300054
+      bretzel nb: 21300104
+      brioche nb: 21300070
+      cabbage nb: 21300016
+      cake nb: 21300052
+      carrot nb: 21300010
+      cauliflower nb: 21300032
+      cheese nb: 21300004
+      cherry nb: 21300034
+      chocolate nb: 21300084
+      coffee nb: 21300024
+      cooked egg nb: 21300038
+      cooked fish nb: 21300088
+      corn nb: 21300026
+      currant nb: 21300076
+      donuts nb: 21300068
+      egg nb: 21300086
+      eggplant nb: 21300028
+      exotic fruit nb: 21300092
+      grap nb: 21300078
+      green grap nb: 21300096
+      grenade nb: 21300090
+      ham nb: 21300006
+      hazelnut nb: 21300098
+      honey nb: 21300100
+      jam nb: 21300102
+      kiwi nb: 21300082
+      lemon nb: 21300074
+      liquor nb: 21300072
+      meat nb: 21300022
+      milkbottle nb: 21300008
+      mushroom nb: 21300018
+      orange nb: 21300064
+      pasta nb: 21300036
+      pear nb: 21300000
+      pepper nb: 21300048
+      pototoes nb: 21300046
+      pumpkin nb: 21300014
+      salad nb: 21300062
+      sprite food pixel no black line_1: 21300002
+      strawberry nb: 21300012
+      sushi nb: 21300020
+      tomato nb: 21300060
+      turnip nb: 21300044
+      waterbottle nb: 21300056
+      watermelon nb: 21300050
+      zucchini nb: 21300042
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

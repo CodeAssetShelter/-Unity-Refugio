@@ -162,7 +162,7 @@ TextureImporter:
       213: 21300104
     second: bretzel
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -179,9 +179,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -192,7 +195,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 16
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -213,9 +216,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -227,6 +236,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -239,6 +249,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -251,6 +262,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -263,6 +275,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -275,6 +288,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -287,6 +301,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1415,9 +1430,62 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      apple: 21300058
+      apricot: 21300080
+      asparagus: 21300030
+      banana: 21300066
+      beer: 21300040
+      blueberries: 21300094
+      bread: 21300054
+      bretzel: 21300104
+      brioche: 21300070
+      cabbage: 21300016
+      cake: 21300052
+      carrot: 21300010
+      cauliflower: 21300032
+      cheese: 21300004
+      cherry: 21300034
+      chocolate: 21300084
+      coffee: 21300024
+      cooked egg: 21300038
+      cooked fish: 21300088
+      corn: 21300026
+      currant: 21300076
+      donuts: 21300068
+      egg: 21300086
+      eggplant: 21300028
+      exotic fruit: 21300092
+      grap: 21300078
+      green grap: 21300096
+      grenade: 21300090
+      ham: 21300006
+      hazelnut: 21300098
+      honey: 21300100
+      jam: 21300102
+      kiwi: 21300082
+      lemon: 21300074
+      liquor: 21300072
+      meat: 21300022
+      milkbottle: 21300008
+      mushroom: 21300018
+      orange: 21300064
+      pasta: 21300036
+      pear: 21300000
+      pepper: 21300048
+      potatoes: 21300046
+      pumpkin: 21300014
+      salad: 21300062
+      sprite food pixel_1: 21300002
+      strawberry: 21300012
+      sushi: 21300020
+      tomato: 21300060
+      turnip: 21300044
+      waterbottle: 21300056
+      watermelon: 21300050
+      zucchini: 21300042
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
